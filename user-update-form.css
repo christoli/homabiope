@@ -1,0 +1,23 @@
+body{
+    background-image: linear-gradient(rgba(255, 71, 86,0.5), rgba(255, 71, 86,0.5)), url(images/search-information-internet-via-portable-laptop-computer-mobile-version.jpg);
+}
+@media only screen and (max-width : 320px){
+    .form-container{
+        width: 90%;
+        height: 500px;
+        margin: auto;
+        margin-top: 25px;
+        background-color: white;
+        border-radius: 5px;
+    }
+    .form-group{
+        width: 100%;
+    }
+    .form-item{
+        width: 80%;
+    }
+    .form-item input{
+        width: 100%;
+        height: 25px;
+    }
+}
