@@ -1,0 +1,86 @@
+body{
+    margin: 0px;
+}
+.banner{
+    background-image: linear-gradient(to top right,#ff4756, #2d2d2d);
+    height: 140px;
+    position: relative;
+}
+footer{
+    background-color: #2d2d2d;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+}
+.copyright{
+    color: #f4f4f4;
+    max-width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+.user-picture{
+    width: 120px;
+    height: 120px;
+    margin: auto;
+}
+.user-picture img{
+    width: 100%;
+    border-radius: 50%;
+    margin-top: 40%;
+}
+.btn-update{
+    text-align: center;
+    margin: 8% 0%;
+}
+.btn-update button{
+    font-size: 17px;
+    font-weight: 400;
+    padding: 10px 30px;
+}
+main{
+    height: 100%;
+    overflow: hidden;
+}
+.red{
+    background-color: #ff475610;
+}
+.black{
+    background-color: #2d2d2d10;
+}
+.grey{
+    background-color: #f4f4f4;
+}
+@media only screen and (max-width : 600px){
+    body{
+        background-color: #f4f4f4;
+    }
+    .user-infos{
+        padding: 0px 15px;
+        margin-top: 30px;
+        margin-bottom: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .user-infos-item{
+        width: 100%;
+        font-weight: 300;
+        padding: 7% 5%;
+        text-align: center;
+        font-size: 15px;
+    }
+    .nom,
+    .prenom{
+        font-size: 22px;
+        display: inline-block;
+    }
+    .nom,
+    .prenom,
+    .phone,
+    .email,
+    .sexe,
+    .adresse{
+        margin-bottom: 5px;
+    }
+
+}

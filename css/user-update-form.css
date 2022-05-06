@@ -96,8 +96,7 @@
     }
 @media only screen and (max-width : 570px){
         body{
-            background-image: linear-gradient(rgba(255, 71, 86,0.5), rgba(255, 71, 86,0.5)), url(/images/search-information-internet-via-portable-laptop-computer-mobile-version.jpg);
-
+            background-image: linear-gradient(rgba(255, 71, 86,0.5), rgba(255, 71, 86,0.5)), url(/images/search-information-internet-via-portable-laptop-computer.jpg);
         }
         .back,
         .form-submit-btn{
