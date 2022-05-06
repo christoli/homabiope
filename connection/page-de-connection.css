@@ -1,0 +1,104 @@
+.big-container{
+    padding: 20px;
+    background-image: url(HomaBiope-Croquis/images/bernd-klutsch-nE2HV5AUXFo-unsplash.jpg);
+    background-size: cover;
+}
+.black-color{
+    background-color: #2d2d2d;
+    opacity: 0.8;
+    margin: 10px;
+    height: 620px;
+}
+.logo{
+    width: 90%;
+    height: 90px;
+    margin: auto;
+    margin-bottom: 12%;
+    
+}
+.logo img{
+    margin-top: 20px ;
+    width: 100%;
+    
+}
+.lorem{
+    margin-top: 10px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.form-container{
+    background-color:#f3f3f3 ;
+    margin: 20px auto;
+    width: 90%;
+    height: 300px;
+    
+}
+.email input, .password input{
+    margin-bottom: 20px;
+    width: 85%;
+    height: 35px;
+    border-radius: 10px;
+}
+.email, .password{
+    text-align: center;
+}
+.email input{
+    margin-top: 20px;
+}
+button{
+    border-radius: 20px;
+    width: 70%;
+    height: 40px;
+    font-size: 20px;
+    background-color:  #ff4756;
+    color: #fcc0c8;
+}
+button:hover{
+    transform: scale(1,1.3);
+    transition: transform 0.3s ease-in-out;
+}
+.connection {
+    text-align: center;
+    margin-top: 20px;
+}
+.forgot-password{
+    margin-top: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+a{
+    font-size: 20px;
+    color: #2d2d2d;
+}
+a:hover{
+color: #ff4756;
+}
+@media only screen and (min-width:730px){
+    .black-color{
+        height: 710px;
+    }
+}
+@media only screen and (min-width:1024px){
+    .black-color{
+        height: 320px;
+        display: flex;
+    }
+    .form-container{
+        margin-top: -3px;
+        height: 323px;
+        width: 150%;
+    }
+    .lorem{
+        margin-top: 13px;
+    }
+    .big-container{
+        max-width: 1050px;
+        margin: auto;
+    }
+    
+ 
+}
