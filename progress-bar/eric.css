@@ -1,0 +1,31 @@
+.first-line{
+    display: flex;
+}
+.pregress-bar{
+   counter-reset: step ;
+}
+.pregress-bar li {
+    list-style-type:none ;
+    height: 100px;
+}
+.pregress-bar li:before {
+    content: counter(step);
+    counter-increment: step ;
+    color: white;
+    background-color: blue;
+    margin-right:30px ;
+    padding:10px ;
+    border-radius:50% ; 
+}
+.pregress-bar li:first-child:before{
+    background-color: brown;
+}
+.traie{
+    border:1px dashed black ;
+    height:300px ;
+    margin-top:8px ;
+    position: relative;
+    left:55px ;
+    z-index: -1;
+
+}

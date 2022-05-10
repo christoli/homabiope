@@ -1,0 +1,106 @@
+.square-container{
+    border: 1px solid rgb(245, 236, 236);
+    width: 100%;
+    height: 830px;
+    border-radius:5px ;
+    background-image: linear-gradient(rgba(225, 71, 86, 0.5),rgba(225, 71, 86, 0.5) ),  url(image-mobile.jpg) ; 
+}
+
+.small-square{
+    border: none;
+    width: 50%;
+    height: 80px;
+    margin: auto;
+    margin-top:15% ;
+    border-radius:5px ;
+}
+.writing{
+    border: 1px solid black;
+    width: 90%;
+    height: 120px;
+    margin: auto;
+    margin-top: 15%;
+}
+.big-square{
+    border: none;
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    margin-top:30% ;
+    background-image: linear-gradient(rgba(225, 225, 225, 0.8),rgba(225, 225, 225, 0.8) );
+    border-radius:10px;
+}
+.input{
+    border: none;
+    width: 75%;
+    height: 25px;
+    margin: auto;
+    margin-top: 15%;
+}
+input{
+    width: 100%;
+    height:100%;
+    border-radius:5px ;
+    border: 1px solid #adaaaa;
+}
+.button{
+    border: none;
+    width: 50%;
+    height: 30px;
+    margin: auto;
+    margin-top: 15%;
+}
+button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius:15px ;
+    background-color: #ED4C68;
+    color: white;
+}
+@media screen and (min-width:490px){
+    .square-container{
+        height: 860px;
+    }
+    .small-square{
+        margin-top:10% ;
+    }
+    .big-square{
+        height:340px ;
+        margin-top:20% ;
+    }
+
+}
+
+@media screen and (min-width:600px){
+    .square-container{
+        width: 100%;
+        height: 650px;
+        display: flex;
+    }
+    .writing{
+        width: 95%;
+    }
+    .big-square{
+        height: 400px;
+        width: 70%;
+        margin-right:5% ;
+        margin-top: auto;
+    }
+    
+}
+@media screen and (min-width:768px){
+    .square-container{
+        max-width: 1080px;
+        height: 650px;
+        margin: auto;
+        margin-top:5% ;
+    }
+    .big-square{
+        height: 450px;
+    }
+   
+    .button{
+        margin-top:10%;
+    }
+}

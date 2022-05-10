@@ -1,0 +1,29 @@
+.first-line{
+    counter-reset: eric;
+    margin-bottom:60px;
+}
+.first-line li{
+    list-style-type:none ;
+    width: 25%;
+    float: left;
+}
+
+.first-line li:after{
+    content: counter(eric);
+    counter-increment:eric ;
+    width:20% ;
+    background-color: red;
+    display: block;
+    border-radius:50%;
+    margin-left:10% ;
+    margin-top:-30px ;  
+    text-align: center;
+}
+
+.first-line li:before{
+    content:'';
+    border: 1px dashed rgb(255, 0, 0);
+    width:62% ; 
+    position: absolute;
+    left:15% ;
+}
