@@ -8,6 +8,7 @@
         margin-left:40%;
         margin-bottom:10% ;
         margin-top:10% ;
+        font-family:'Roboto',sans-serif ;    
     }
     .circle{
         border: 1px solid black;
@@ -32,6 +33,7 @@
     .second-line{
         margin-left:35% ;
         margin-top:5% ;
+        font-family:'Roboto',sans-serif ;    
     }
     .square-up{
         border: 1px solid rgb(233, 222, 222);
@@ -46,6 +48,7 @@
         display: flex;
         margin-left:25% ;
         margin-top:15% ;
+        font-family:'Roboto',sans-serif ;    
     }
     .radio{
         border: 1px solid #adaaaa;
@@ -84,6 +87,7 @@
         margin-left:20% ;
         margin-top:15% ;
         border-radius:5px ;
+        font-family:'Roboto',sans-serif ;    
        
     }
     .square-down{
@@ -99,6 +103,7 @@
         display: flex;
         margin-top:10% ;
         margin-left: 25%;
+        font-family:'Roboto',sans-serif ;    
     }
     .square-down-first-line-writing{
         margin-left: 5%;
@@ -190,6 +195,7 @@
         .pregress-bar li {
             list-style-type:none ;
             height: 100px;
+            font-family:'Roboto',sans-serif ;    
         }
         .pregress-bar li:before {
             content: counter(step);
@@ -199,6 +205,8 @@
             margin-right:30px ;
             padding:10px ;
             border-radius:50% ; 
+            position: relative;
+            z-index: 1;
         }
         .pregress-bar .payer:before{
             background-color: #ED4C68;

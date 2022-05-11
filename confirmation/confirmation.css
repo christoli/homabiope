@@ -56,6 +56,8 @@ img{
     height: 30px;
     margin-top:5% ;
     margin: auto;
+    font-size: 20px; 
+    font-family:'Roboto',sans-serif ;         
 }
 .third-square{
     border: none;
@@ -65,6 +67,7 @@ img{
     margin-top:5% ;
     background-image: linear-gradient(rgba(225, 225, 225, 0.8),rgba(225, 225, 225, 0.8) );
     border-radius:5px;
+    font-family:'Roboto',sans-serif ;         
 }
 .third-square span{
     display: block;
@@ -182,6 +185,7 @@ button{
     .pregress-bar li {
         list-style-type:none ;
         height: 100px;
+        font-family:'Roboto',sans-serif ;     
     }
     .pregress-bar li:before {
         content: counter(step);
@@ -191,6 +195,8 @@ button{
         margin-right:30px ;
         padding:10px ;
         border-radius:50% ; 
+        position: relative;
+        z-index: 1;
     }
     .pregress-bar .confirmation:before{
         background-color: #ED4C68;

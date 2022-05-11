@@ -62,6 +62,7 @@ input{
     height: 25px;
     margin-bottom:30px ;
     border-radius: 5px;
+    font-family:'Roboto',sans-serif ;    
 }
 .first-form{
     border: none;
@@ -195,6 +196,7 @@ a:hover{
      .pregress-bar li {
          list-style-type:none ;
          height: 140px;
+         font-family:'Roboto',sans-serif ;    
      }
      .pregress-bar li:before {
          content: counter(step);
@@ -205,6 +207,8 @@ a:hover{
          padding:10px ;
          padding-right:15px ;
          border-radius:50% ; 
+         position: relative;
+         z-index:1 ;
      }
      .pregress-bar li:first-child:before{
          background-color: brown;

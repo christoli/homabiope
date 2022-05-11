@@ -59,6 +59,7 @@ input{
    margin-top:10%;
    border-radius:5px ;
    border: 1px solid #adaaaa;
+   font-family:'Roboto',sans-serif ;    
 }
 
 .selector{
@@ -73,6 +74,7 @@ select{
     height:100%;
     border: 1px solid #adaaaa;
     border-radius:5px ;
+    font-family:'Roboto',sans-serif ;    
 }
 
 .last-line{
@@ -96,6 +98,7 @@ button{
     background-color: #ED4C68;
     border: none;
     color: white;
+    font-family:'Roboto',sans-serif ;    
 }
 .last-line-square-left{
     border: none;
@@ -105,6 +108,7 @@ button{
 a{
     text-decoration: none;
     color:#2d2d2d ;
+    font-family:'Roboto',sans-serif ;    
 }
 a:hover{
     color: brown;
@@ -191,6 +195,7 @@ a:hover{
     .pregress-bar li {
         list-style-type:none ;
         height: 100px;
+        font-family:'Roboto',sans-serif ;    
     }
     .pregress-bar li:before {
         content: counter(step);
@@ -200,6 +205,8 @@ a:hover{
         margin-right:30px ;
         padding:10px ;
         border-radius:50% ; 
+        position: relative;
+        z-index: 1;
     }
     .pregress-bar .renseignement:before{
         background-color: #ED4C68;
