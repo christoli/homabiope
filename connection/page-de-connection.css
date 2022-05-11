@@ -1,47 +1,45 @@
-.big-container{
-    padding: 20px;
-    background-image: url(HomaBiope-Croquis/images/bernd-klutsch-nE2HV5AUXFo-unsplash.jpg);
-    background-size: cover;
-}
-.black-color{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap%27');
+
+body {
+    font-family: 'Roboto', sans-serif;
     background-color: #2d2d2d;
-    opacity: 0.8;
-    margin: 10px;
-    height: 620px;
+    margin: 0px;
+    padding: 0px;
 }
-.logo{
-    width: 90%;
-    height: 90px;
-    margin: auto;
-    margin-bottom: 12%;
-    
-}
-.logo img{
-    margin-top: 20px ;
-    width: 100%;
-    
-}
-.lorem{
-    margin-top: 10px;
-    width: 90%;
-    margin: auto;
-    text-align: center;
-    color: white;
-    font-size: 20px;
+.big-container{
+    background-image: linear-gradient(rgba(255, 71, 86, 0.5), rgba(255, 71, 86, 0.5)), url(/HomaBiope-Croquis/images/search-information-internet-via-portable-laptop-computer-mobile-version.jpg);
+    background-size: cover;
+    padding-bottom: 10%;
 }
 
-.form-container{
-    background-color:#f3f3f3 ;
-    margin: 20px auto;
-    width: 90%;
-    height: 300px;
-    
+.logo {
+    width: 100%;
+    text-align: center;
+    background-color: #2d2d2d95;
+    padding-bottom: 10px ;
+    margin-bottom: 30px;
 }
+.logo img {
+    width: 40%;
+    margin-top: 20px;
+}
+.form-container {
+    margin-top: 20px;
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    border-radius: 0px 10px 10px 0px;
+}
+h2 {
+    text-align: center;
+}
+
 .email input, .password input{
     margin-bottom: 20px;
     width: 85%;
-    height: 35px;
-    border-radius: 10px;
+    border-radius: 5px;
+    border: 1px solid #adaaaa;
+    padding: 10px;
 }
 .email, .password{
     text-align: center;
@@ -49,11 +47,30 @@
 .email input{
     margin-top: 20px;
 }
+.inscription-item{
+    display: flex;
+    align-items: baseline;
+    width: 80%;
+    margin: auto;
+}
+.inscription{
+    width: 100%;
+        text-align: right;
+}
+.back{
+    text-align: left;
+    width: 50%;
+}
+.back a{
+    text-decoration: none;
+    color: #2d2d2d;
+}
 button{
+    border: none;
     border-radius: 20px;
-    width: 70%;
+    width: 50%;
     height: 40px;
-    font-size: 20px;
+    font-size: 18px;
     background-color:  #ff4756;
     color: #fcc0c8;
 }
@@ -69,6 +86,7 @@ button:hover{
     margin-top: 10px;
     text-align: center;
     margin-top: 30px;
+    padding-bottom: 40px;
 }
 a{
     font-size: 20px;
@@ -78,27 +96,33 @@ a:hover{
 color: #ff4756;
 }
 @media only screen and (min-width:730px){
-    .black-color{
-        height: 710px;
+    .form-container {
+        max-width: 550px;
     }
 }
-@media only screen and (min-width:1024px){
-    .black-color{
-        height: 320px;
+@media only screen and (min-width:992px){
+    .big-container {
+        background: none;
+        max-width: 1080px;
+        margin: auto;
+        margin-top: 12%;
+    }
+    .logo-and-form-container{
+        height: 400px ;
         display: flex;
     }
-    .form-container{
-        margin-top: -3px;
-        height: 323px;
-        width: 150%;
+    .form-container {
+        width: 100%;
+        height: 400px;
+        
     }
-    .lorem{
-        margin-top: 13px;
+    .logo-container {
+        background-image: linear-gradient(rgba(255, 71, 86, 0.5), rgba(255, 71, 86, 0.5)), url(/HomaBiope-Croquis/images/search-information-internet-via-portable-laptop-computer.jpg);
+        background-size: cover;
+        border-radius: 10px 0px 0px 10px;
+        width: 130%;
     }
-    .big-container{
-        max-width: 1050px;
-        margin: auto;
+    .email{
+        padding-top: 40px;
     }
-    
- 
 }

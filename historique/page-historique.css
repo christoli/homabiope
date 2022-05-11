@@ -1,92 +1,99 @@
-.big-container{
-    padding: 10px;
-    background-image: url(HomaBiope-Croquis/images/bernd-klutsch-nE2HV5AUXFo-unsplash.jpg);
-    background-size: cover;
-}
-.black-color{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap%27');
+
+body {
+    font-family: 'Roboto', sans-serif;
     background-color: #2d2d2d;
-    opacity: 0.8;
-    margin: 10px;
-    height: 680px;
+    margin: 0px;
+    padding: 0px;
 }
-.logo{
-    width: 30%;
-    height: 90px;
-    
+.big-container{
+    background-image: linear-gradient(rgba(255, 71, 86, 0.5), rgba(255, 71, 86, 0.5)), url(/HomaBiope-Croquis/images/search-information-internet-via-portable-laptop-computer-mobile-version.jpg);
+    background-size: cover;
+    padding-bottom: 10%;
 }
-.logo img{
-    margin: 10px 0px 20px 5%;
-    width: 90%;
-    height: 60%;
+.logo img {
+    width: 70%;
+    margin-top: 20px;
+    margin-left:20px ;
 }
-.header-container{
+.logo {
+    width: 100%;
+}
+header{
     display: flex;
-    
+    background-color: #2d2d2d95;
+    align-items: center;
+    font-size: 20px;
+    color: #2d2d2d95;;
 }
 .menu-bar{
     display: flex;
     justify-content: space-around;
 }
 .request a, .historique a,.compte a{
-    color: rgb(207, 201, 201);
+    color: white;
     text-decoration: none;
-   
+    font-size: 15px;
 }
 .request a, .historique a{
-    margin-left: 10%;
-    padding: 1px;
+    margin-right: 10px;
 }
+a:hover{
+    color: #ff4756;
+    }
 .menus-bar{
     width: 60%;
 }
 .compte{
     text-align: center;
     margin-top: 20px;
-}
-.header-container{
-    align-items: center;
-    font-size: 20px;
-    color: rgb(207, 201, 201);
-}
+}   
 h2{
     text-align: center;
-    color: rgb(207, 201, 201); 
+    color: #110d0d95;
+    padding-top: 20px;
 }
 .table-container{
-    color:rgb(207, 201, 201); 
+    color:#110d0d95;
     margin-left: 15px;
 }
 td{
-    /* width:13.5% ; */
     height: 50px;
-    border: 1px solid white;
+    border: 1px solid #2d2d2d95;;
 }
 th{
-    /* width: 15%; */
     height: 30px;
-    border: 1px solid white;
+    border: 1px solid #2d2d2d95;
 }
 .eye{
     margin: 10px 0px 10px 10%;
-    color:rgb(207, 201, 201); 
+    color:#2d2d2d95;; 
 }
 .delete{
     margin: 17%;
-    color:rgb(207, 201, 201); 
+    color:#2d2d2d95;; 
 }
 .copyright{
     text-align: center;
     margin-top: 20px;
     font-size: 25px;
-    color:rgb(207, 201, 201); 
+    color:#2d2d2d95;
+    padding-bottom: 5%; 
 }
-.copyright{
-    text-align: center;
-    margin-top: 20px;
-    font-size: 25px;
-    color:rgb(207, 201, 201); 
+.white-backgrowd{
+    background-color: white;
+    width: 90%;
+    margin: auto;
 }
-@media only screen and (min-width:1024px){
+@media only screen and (min-width: 700px){
+    .logo img{
+        max-width: 350px;
+    }
+    .request a, .historique a,.compte a{
+        font-size: 27px;
+    }
+}
+@media only screen and (min-width:992px){
     .menu-bar{
         width: 47%;
         justify-content: space-between;
@@ -97,7 +104,7 @@ th{
         font-size: 28px;
     }
     .request a, .historique a{
-        margin-left: 0;
+        margin-right:20px;
         padding: 0;
     }
     .historique a{
@@ -118,12 +125,10 @@ th{
     th{
         font-size: 30px;
     }
-    .black-color{
-        height: 750px;
-    }
     .big-container{
         max-width: 1050px;
         margin: auto;
     }
+    
     
 }

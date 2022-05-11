@@ -8,16 +8,14 @@ body {
 }
 
 .big-container {
-    background-image: linear-gradient(rgba(255, 71, 86, 0.5), rgba(255, 71, 86, 0.5)), url(HomaBiope-Croquis/images/search-information-internet-via-portable-laptop-computer-mobile-version.jpg);
+    background-image: linear-gradient(rgba(255, 71, 86, 0.5), rgba(255, 71, 86, 0.5)), url(/HomaBiope-Croquis/images/search-information-internet-via-portable-laptop-computer-mobile-version.jpg);
     background-size: cover;
     padding-bottom: 10%;
 }
-
 h2 {
     text-align: center;
     padding: 10px;
 }
-
 .logo img {
     width: 40%;
     margin-top: 20px;
@@ -30,7 +28,6 @@ h2 {
     padding-bottom: 10px;
 }
 .form-container {
-    margin-top: 20px 0px 20px 0px;
     width: 90%;
     margin: auto;
     background-color: white;
@@ -39,18 +36,14 @@ h2 {
 
 .name-container {
     margin-top: 30px;
-    
 }
-
 .name,
 .email,
 .password,
 .tel,
-.adress,
-.inscription {
+.adress {
     text-align: center;
 }
-
 .name input,
 .email input,
 .password input,
@@ -62,11 +55,9 @@ h2 {
     border: 1px solid #adaaaa;
     padding: 10px;
 }
-
 .name input {
     margin-top: 15px;
 }
-
 .inscription button {
     border-radius: 20px;
     border: none;
@@ -77,8 +68,28 @@ h2 {
     color: #fcc0c8;
     margin-top: 20px;
     margin-bottom: 40px;
-
 }
+.inscription-item{
+    display: flex;
+    align-items: baseline;
+    width: 80%;
+    margin: auto;
+}
+.inscription{
+    width: 100%;
+        text-align: right;
+}
+.back{
+    text-align: left;
+    width: 50%;
+}
+.back a{
+    text-decoration: none;
+    color: #2d2d2d;
+}
+a:hover{
+    color: #ff4756;
+    }
 
 button:hover {
     transform: scale(1, 1.3);
@@ -91,7 +102,6 @@ button:hover {
     height: 35px;
     margin: auto;
 }
-
 .male-female-container {
     display: flex;
     justify-content: space-around;
@@ -109,7 +119,7 @@ button:hover {
         background: none;
         max-width: 1080px;
         margin: auto;
-        margin-top: 18%;
+        margin-top: 12%;
 
     }
     .form-container {
@@ -117,7 +127,7 @@ button:hover {
     }
 
     .logo-container {
-        background-image: linear-gradient(rgba(255, 71, 86, 0.5), rgba(255, 71, 86, 0.5)), url(HomaBiope-Croquis/images/search-information-internet-via-portable-laptop-computer.jpg);
+        background-image: linear-gradient(rgba(255, 71, 86, 0.5), rgba(255, 71, 86, 0.5)), url(/HomaBiope-Croquis/images/search-information-internet-via-portable-laptop-computer.jpg);
         background-size: cover;
         border-radius: 10px 0px 0px 10px;
         width: 50%;
@@ -149,6 +159,5 @@ button:hover {
     .email input,
     .adress input {
         width: 100%;
-        
     }
 }
