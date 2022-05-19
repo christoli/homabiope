@@ -4,85 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ajout d'info </title>
+    <title>Ajout d'information</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
     <link rel="stylesheet" href="Infos/Ajout-info.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div>
-        <img src="/Infos/Homabiope-blanc.png" alt="" width="100%px" height="100%">
-    </div>
-    <div class="big-square"> 
-        <div class="logo">
-            <img src="/Infos/Homabiope-blanc.png" alt="" width="100%" height="100%">
+    <main>
+        <div class="logo-box">
+            <img src="/images/logo-blanc-transparent-homabiope.png" alt="Logo HomaBiope">
         </div>
-        <div class="all">
-            <div class="progress-bar-vertical">
-                <div class="traie" >
-                </div>
-                <ul class="pregress-bar">
-                    <li> Ajout d'info </li>
-                    <li> renseignement d' identité </li>
-                    <li> confirmation </li>
-                    <li> Payer </li>
-                </ul>
-            </div>                  
-           
-            <div class="square">
-                <div class="first-line">
-                    <div class="circle">
-                        <span>1</span>
-                    </div>
-                    <div class="first-writing">
-                        <span> Ajout d'Info </span>
-                    </div>
-                </div>
-        
-                <div class="first-form">
-                    <form action="">
-                        <div class="input" >
-                            <input type="text" placeholder=" Numéro de l'acte" required >
-                            <input type="text" placeholder=" Numéro de la nationnalité" required>
-                        </div>
-                        <div class="input">
-                            <input type="text" placeholder=" Proffession" required="" >
-                            <input type="text" placeholder=" Groupe sanguin" required="" >
-                        </div>                 
-                    </form>
-                </div>
-        
-                <div class="second-writing">
-                    <span>Personne à prevenir </span>
-                </div>
-        
-                <div class="second-form">
-                    <form action="">
-                        <div  class="input">
-                            <input type="text" placeholder="Nom complet" required="">
-                            <input type="Téléphone" placeholder="Téléphone" required="">
-                        </div>
-                    </form>
-                </div>
-        
-                <div class="square-down">
-                    <div class="square-down-in">
-                        <button>
-                             Choisir Fichier
-                        </button>
-                    </div>
-                </div>
-                <div class="last-line">
-                    <div>
-                        <a href="#">Retour </a>
-                    </div>
-                    <div class="button">
-                        <button > Suivant </button>
-                    </div>
-                </div>
+        <div class="form-container">
+            <div class="image-box">
             </div>
-        </div>     
-    </div>
-    
-   
-    
+            <div class="form-box">
+                <div class="form-title">
+                    <span>Ajout d'informations</span>
+                </div>
+                <form action="/Renseignement.html">
+                    <div class="form-fullname-group">
+                        <div class="form-item right">
+                            <input type="text" name="num-acte" placeholder="Numéro de l'acte" required>
+                        </div>
+                        <div class="form-item">
+                            <input type="text" name="num-nationalite" placeholder="Numéro de la nationalité" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-item">
+                            <input type="text" name="num-registre" placeholder="Numéro régistre" required>
+                        </div>
+                        <div class="form-title">
+                            <span>Personne à prévenir</span>
+                        </div>
+                        <div class="form-item">
+                            <input type="text" name="nomComplet" placeholder="Nom complet" required>
+                        </div>
+                        <div class="form-item">
+                            <input type="tel" name="telephone" placeholder="Telephone" required>
+                        </div>
+                        <div class="form-item">
+                            <input type="file" name="fichier" placeholder="Choisir un fichier">
+                        </div>
+                    </div>
+                    <div class="form-bottom-item width-80">
+                        <div class="form-submit-btn">
+                            <button type="submit">Suivant</button>
+                        </div>
+                        <div class="back">
+                            <a href="/choix-demande.html">
+                                <i class="fa-solid fa-arrow-left"></i><span>&nbsp;Retour</span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    </main>
 </body>
 </html>

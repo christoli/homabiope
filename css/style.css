@@ -6,7 +6,7 @@ body{
 button{
     border: none;
     color: #fff;
-    font-size: 15px;
+    font-size: 18px;
     font-family:'Roboto', sans-serif;
     background-color: #ff4756;
     padding: 8px 20px;
@@ -19,11 +19,11 @@ button:hover{
 input,
 textarea{
     font-family: 'Roboto', sans-serif;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 300;
     color: #2d2d2d;
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 1px;
     border: 1px solid #adaaaa;
     border-radius: 5px;
     padding-left: 5px;
@@ -86,6 +86,7 @@ input{
   }
 
 /*-------------Footer styling-----------------*/
+
 
 .footer-copyright{
     background-color: #2d2d2d;

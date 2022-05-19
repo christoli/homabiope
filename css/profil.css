@@ -3,7 +3,7 @@ body{
 }
 .banner{
     background-image: linear-gradient(to top right,#ff4756, #2d2d2d);
-    height: 140px;
+    height: 170px;
     position: relative;
 }
 footer{
@@ -26,7 +26,7 @@ footer{
 .user-picture img{
     width: 100%;
     border-radius: 50%;
-    margin-top: 40%;
+    margin-top: 60%;
 }
 .btn-update{
     text-align: center;
@@ -56,7 +56,7 @@ main{
     }
     .user-infos{
         padding: 0px 15px;
-        margin-top: 30px;
+        margin-top: 0px;
         margin-bottom: 25px;
         display: flex;
         flex-direction: column;
@@ -64,14 +64,15 @@ main{
     }
     .user-infos-item{
         width: 100%;
+        height: 100px;
         font-weight: 300;
         padding: 7% 5%;
         text-align: center;
-        font-size: 15px;
+        font-size: 17px;
     }
     .nom,
     .prenom{
-        font-size: 22px;
+        font-size: 25px;
         display: inline-block;
     }
     .nom,
@@ -81,6 +82,9 @@ main{
     .sexe,
     .adresse{
         margin-bottom: 5px;
+    }
+    .infos-group{
+        margin: 7% 0%;
     }
 
 }
