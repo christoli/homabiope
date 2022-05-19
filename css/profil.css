@@ -42,10 +42,10 @@ main{
     overflow: hidden;
 }
 .red{
-    background-color: #ff475610;
+    background-color: #ff4756;
 }
 .black{
-    background-color: #2d2d2d10;
+    background-color: #2d2d2d;
 }
 .grey{
     background-color: #f4f4f4;
@@ -87,4 +87,68 @@ main{
         margin: 7% 0%;
     }
 
+}
+@media only screen and (min-width : 600px){
+    main{
+        max-width: 500px;
+        margin: auto;
+        margin-top: 50px;
+        border-radius: 10px;
+    }
+    body{
+        background-color: #2d2d2d;
+    }
+    .user-infos{
+        padding: 0px 15px;
+        margin-top: 0px;
+        margin-bottom: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .user-infos-item{
+        width: 100%;
+        height: 100px;
+        font-weight: 300;
+        padding: 7% 5%;
+        text-align: center;
+        font-size: 17px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: indigo;
+    }
+    .user-infos-item.grey{
+        background-color: #f4f4f4;
+    }
+    .user-infos-item.red{
+        background-color: rgb(240, 235, 235);
+    }
+    .user-infos-item.black{
+        background-color: #f4f4f4;
+    }
+    .nom,
+    .prenom{
+        font-size: 25px;
+    }
+    .nom,
+    .prenom,
+    .phone,
+    .email,
+    .sexe,
+    .adresse{
+        margin-bottom: 5px;
+    }
+    .infos-group{
+        margin: 7% 0%;
+    }
+    .btn-update{
+        text-align: center;
+        padding: 8% 0%;
+        background-color: rgb(240, 235, 235);
+        margin: 0%;
+        margin-bottom: 15px;
+        border-radius: 10px;
+    }
 }
