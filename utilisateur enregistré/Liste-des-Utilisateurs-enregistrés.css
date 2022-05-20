@@ -5,7 +5,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0px;
     padding: 0px;
-    background-color: #efeaea;
+    background-color: #cdc2c2;
 }
 .big-container{
         margin: 10% 0%;
@@ -86,8 +86,9 @@ td{
 }
 th{
     height: 20px;
-    border: 1px solid #2d2d2d;
-    color: #747272;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: #2d2d2d;
     
 }
 .action a{
@@ -107,7 +108,7 @@ th{
  
 }
 .white-backgrowd{
-    background-color: white;
+    background-color: rgb(241, 238, 238);
     width: 90%;
     margin: auto;
     border-radius: 10px;

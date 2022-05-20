@@ -33,7 +33,8 @@ form{
     border-radius: 10px;
 }
 h2 {
-    margin-top: 15px;
+    padding-top: 20px;
+    margin-top: 10px;
     text-align: center;
 }
 
@@ -68,7 +69,7 @@ h2 {
     text-decoration: none;
     color: #2d2d2d;
 }
-button{
+/*button{
     border: none;
     border-radius: 20px;
     width: 50%;
@@ -80,7 +81,7 @@ button{
 button:hover{
     transform: scale(1,1.3);
     transition: transform 0.3s ease-in-out;
-}
+}*/
 .connection {
     text-align: center;
     margin-top: 20px;
@@ -100,7 +101,7 @@ color: #ff4756;
 }
 @media only screen and (max-width:730px){
     .form-container {
-    margin-top: 30%;
+    margin-top: 40%;
     }
     form{
         padding-top: 15px;
@@ -109,6 +110,7 @@ color: #ff4756;
 @media only screen and (min-width:730px){
     .form-container {
         max-width: 550px;
+        margin-top: 20%;
         border-radius: 0px 10px 10px 0px;
     }
 }
@@ -119,6 +121,9 @@ color: #ff4756;
         margin: auto;
         margin-top: 12%;
     }
+    h2{
+        padding-top: 7px;
+    }
     .logo-and-form-container{
         height: 400px ;
         display: flex;
@@ -126,6 +131,7 @@ color: #ff4756;
     .form-container {
         width: 100%;
         height: 400px;
+        margin-top: 0%;
         border-radius: 0px 10px 10px 0px;
         
     }
@@ -136,6 +142,6 @@ color: #ff4756;
         width: 130%;
     }
     .email{
-        padding-top: 40px;
+        padding-top: 5px;
     }
 }

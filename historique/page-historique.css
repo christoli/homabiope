@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #efeaea;
+    background-color: #cdc2c2;
     margin: 0px;
     padding: 0px;
 }
@@ -56,7 +56,9 @@ td{
 }
 th{
     height: 30px;
-    border: 1px solid #2d2d2d;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: #2d2d2d;
 }
 .eye{
     margin: 10px 0px 10px 10%;
@@ -67,7 +69,7 @@ th{
     color:#2d2d2d;; 
 }
 .white-backgrowd{
-    background-color: white;
+    background-color: rgb(241, 238, 238);
     border-radius: 15px;
     max-width: 90%;
     margin: auto;
